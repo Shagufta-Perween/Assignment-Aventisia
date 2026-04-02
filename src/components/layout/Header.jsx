@@ -18,7 +18,7 @@ const Header = ({ onMenuClick }) => {
         </button>
 
         <div className="flex items-center gap-2">
-          <img src="/logo.png" alt="Logo" className="w-8 h-8 object-contain" />
+          <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Logo" className="w-8 h-8 object-contain" />
           {/* Workspace name hidden on xs, shown sm+ */}
           <span className="hidden sm:inline font-semibold text-white tracking-wide text-lg">Worcspace</span>
         </div>
